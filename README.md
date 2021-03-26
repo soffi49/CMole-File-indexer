@@ -45,4 +45,5 @@ Program reads commands from stdin (which happens parallely to potential indexing
 - `namepart y`- where y is a part of a filename, prints information about all files that contain y in the name.
 - `owner uid`- where uid is owner's identifier, prints information about all files that owner is uid.
 ## 3.3 Additional features
-The last three commands support pagination. It means that the user is able to display output with pagers like *less*. For that, one has to set the `$PAGER` variable.
+1. The last three commands support pagination. It means that the user is able to display output with pagers like *less*. For that, one has to set the `$PAGER` variable.
+2. The program is able to perform auto re-indexing if the parameter `-t` is specified
